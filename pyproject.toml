@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scEpiDel"
+version = "0.1.7"
+description = "scEpiDel is a computational tool for detecting full genomic deletions in single-cell ATAC-seq cancer datasets."
+authors = [{ name = "Raghav Bhargava", email = "rbhar017@uottawa.ca" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["numpy", "pandas", "tqdm", "scipy"]
+
+[project.urls]
+Homepage = "https://github.com/raghavbh5588/scEpiDel"
+Issues = "https://github.com/raghavbh5588/scEpiDel/issues"
