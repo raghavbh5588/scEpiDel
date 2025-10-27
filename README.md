@@ -1,6 +1,6 @@
 # scEpiDel
 
-A novel algorithm for the detection of full genomic deletions in single-cell ATAC-seq cancer datasets. It identifies large-scale copy number losses by comparing read distributions between cancer and normal cell populations using a variable-window size that adapts to its local read density.
+A algorithm for the detection of full genomic deletions in single-cell ATAC-seq cancer datasets. It identifies large-scale copy number losses by comparing read distributions between cancer and normal cell populations using a variable-window size that adapts to its local read density. Developed by the Perkins Lab at the Ottawa Hospital Research Institute.
 
 ## Overview
 
